@@ -1,0 +1,126 @@
+/*
+  Name: Clay LaJoye
+  Date: 09.01.20
+  Section: CSE 190E
+  This is the style.css page for my portfolio. It manages the styling of the
+  elements on my website.
+*/
+
+/* ======== HEADER ======== */
+header {
+  background-color: rgb(51, 0, 111);
+  color: white;
+  padding-top: 1em;
+}
+
+header h1 {
+  color: white;
+  font-family: "Gabriola";
+  font-size: 4em;
+  text-align: center;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.navbar li a:hover {
+  background-color: rgb(145, 123, 76);
+  color: white;
+}
+
+.navbar li a:active {
+  background-color: rgb(145, 123, 76);
+}
+
+h2 {
+  color: rgb(51, 0, 111);
+  font-size: 24pt;
+  font-family: "Franklin Gothic Medium";
+}
+
+/* ======== MAIN ======== */
+.projects-body {
+  padding-left: 4em;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+.projects-body hr {
+  border: 1px solid rgb(232, 211, 162);
+}
+
+h3 {
+  color: rgb(51, 0, 111);
+  font-size: 18pt;
+  font-family: "Franklin Gothic Medium";
+}
+
+body#bio {
+  width: 1920;
+  height: 1080;
+  background: url('../images/husky.png') fixed;
+}
+
+main {
+  font-family: "Open Sans", sans-serif;
+  margin: 3% 6%;
+  font-size: 14pt;
+}
+
+hr {
+  border-bottom: 1px solid rgb(232, 211, 162);
+  border-top: 2px solid rgb(145, 123, 76);
+}
+
+.contacts {
+  font-weight: bold;
+}
+
+.emails {
+  list-style-type: disc;
+  text-indent: 1em;
+}
+
+.projects-list {
+  list-style-type: decimal;
+}
+
+img {
+  float: left;
+  margin: 0px 1.5em 1em 0px;
+  width: 30%;
+  border-color: rgb(145, 123, 76);
+  border-width: 6px;
+  border-style: solid;
+}
+
+/* ======== FOOTER ======== */
+footer {
+  background-color: rgb(51, 0, 111);
+  color: white;
+  font-family: "Gabriola";
+  font-size: 1.5em;
+  border-top-style: solid;
+  border-top-color: rgb(145, 123, 76);
+  border-top-width: 6px;
+  text-align: center;
+}
